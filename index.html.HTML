@@ -1,0 +1,122 @@
+<!Doctype html>
+<html>
+<head>
+<title> MUBZ </title>
+<link rel="shortcut icon" type="image/JPEG" href="img/logo.JPEG">
+</head>
+<style>
+body{   
+   margin:0;
+   margin:0;
+}
+.container{
+   background:url(img/backgr.png) no-repeat;
+   background-size:cover;
+   height:100vh;
+}
+.navbar{
+   height:100px;
+   width:100%;
+   background:rgba(0,0,0,0.5);
+
+}
+.logo{
+   width:90px;
+   height:90px;
+   margin-left:5px;
+   margin-top:3px;
+   border:2px blue;
+   border-radius:10px;
+   box-shadow:10px 0px 15px black;
+}
+.navbar ul{
+  float:right;
+  margin-right:10px;
+}
+.navbar ul li{
+  list-style-type:none;
+  display:inline-block;
+  margin: 0px 8px;
+  line-height:80px;
+ 
+}
+.navbar ul li a{
+   text-decoration:none;
+   color:white;
+   padding:6px 13px;
+   transition:.5;
+}
+.navbar ul li a.active,.navbar ul li a:hover{
+   background:#22d2f3;
+   border-radius:2px;
+}
+.container .center{
+   position:absolute;
+   transform:translate(-50%,-50%);
+   top:50%;
+   left:55%;
+   font-family: "Palatino linotype", "Book Antiqua", Palatino, serif;
+ijo   
+}
+.center h1{
+   color:white;
+   font-size:80px;
+   font-weight:bold;
+   width:850px;
+   text-align:center;
+   margin-left:-75px;
+}
+.center .buttons{
+   margin:35px 280px;
+
+}
+.buttons button{
+  position: fixed;
+  height:50px;
+  width:150px;
+  font-size:18px;
+  color:#22d2f3
+  background:black;
+  border:1px solid #22d2f3;
+  outline:none;
+  border-radius:15px;
+  transition:.5s;
+  margin-left:-90px;
+
+
+}
+.buttons  .btn{
+   margin-left:100px;
+}
+.buttons button:hover{
+   background:#22d2f3;
+
+  
+</style>
+
+</head>
+<body>
+<div class="container">
+  <nav class="navbar">
+    <img class="logo" src="img/logo.jpeg">
+<ul>
+ <li><a  href="#" class="active">Home</a></li>
+<li><a  href="AboutUs.html" >About us</a></li>
+<li><a  href="contact us.HTML" >Contact us</a></li>
+</ul>
+</nav>
+<div class="center">
+<h1> MUBZ </h1>
+<div  class="buttons">
+<form action="Sign up.html">
+<button> Sign up </button>
+</form>
+<form action="Login.html">
+<button class="btn"> Login </button>
+</form>
+</div>
+</div>
+</div>
+
+</body>
+</html>
